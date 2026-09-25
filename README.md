@@ -28,6 +28,5 @@ npm install
 npm run dev
 ```
 
-Runs on http://localhost:5173.
 
 If the frontend loads but the list stays empty, check that the backend is actually running and that its CORS policy in `Program.cs` includes `http://localhost:5173`.
